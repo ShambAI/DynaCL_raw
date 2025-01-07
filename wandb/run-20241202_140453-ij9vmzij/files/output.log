@@ -1,9 +1,0 @@
-[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-  0%|                                                                                                                      | 0/100 [00:22<?, ?it/s]
-Traceback (most recent call last):
-  File "/Users/shamba/Desktop/Paper 1 - HAR RL/UCR_UEA/baselines/ts2vec.py", line 354, in <module>
-    main(train_loader, seed)
-  File "/Users/shamba/Desktop/Paper 1 - HAR RL/UCR_UEA/baselines/ts2vec.py", line 239, in main
-    for batch_idx, (x, _) in enumerate(train_loader):
-                   ^^^^^^
-ValueError: too many values to unpack (expected 2)
