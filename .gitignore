@@ -1,0 +1,21 @@
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore data
+models
+data
+wandb
