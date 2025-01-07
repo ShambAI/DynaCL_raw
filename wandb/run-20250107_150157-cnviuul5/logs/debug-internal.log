@@ -1,0 +1,197 @@
+2025-01-07 15:01:57,637 INFO    StreamThr :38805 [internal.py:wandb_internal():85] W&B internal server running at pid: 38805, started at: 2025-01-07 15:01:57.636570
+2025-01-07 15:01:57,637 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: status
+2025-01-07 15:01:57,639 INFO    WriterThread:38805 [datastore.py:open_for_write():87] open: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/run-cnviuul5.wandb
+2025-01-07 15:01:57,639 DEBUG   SenderThread:38805 [sender.py:send():391] send: header
+2025-01-07 15:01:57,639 DEBUG   SenderThread:38805 [sender.py:send():391] send: run
+2025-01-07 15:01:57,640 INFO    SenderThread:38805 [sender.py:_setup_resume():761] checking resume status for None/Dynamic_CLsleepeeg42/cnviuul5
+2025-01-07 15:01:58,388 INFO    SenderThread:38805 [dir_watcher.py:__init__():211] watching files in: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files
+2025-01-07 15:01:58,388 INFO    SenderThread:38805 [sender.py:_start_run_threads():1200] run started: cnviuul5 with start time 1736258517.636561
+2025-01-07 15:01:58,401 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: run_start
+2025-01-07 15:01:58,412 DEBUG   HandlerThread:38805 [system_info.py:__init__():26] System info init
+2025-01-07 15:01:58,412 DEBUG   HandlerThread:38805 [system_info.py:__init__():41] System info init done
+2025-01-07 15:01:58,413 INFO    HandlerThread:38805 [system_monitor.py:start():194] Starting system monitor
+2025-01-07 15:01:58,413 INFO    SystemMonitor:38805 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-07 15:01:58,413 INFO    HandlerThread:38805 [system_monitor.py:probe():214] Collecting system info
+2025-01-07 15:01:58,413 INFO    SystemMonitor:38805 [interfaces.py:start():188] Started cpu monitoring
+2025-01-07 15:01:58,416 INFO    SystemMonitor:38805 [interfaces.py:start():188] Started disk monitoring
+2025-01-07 15:01:58,417 INFO    SystemMonitor:38805 [interfaces.py:start():188] Started gpuapple monitoring
+2025-01-07 15:01:58,420 INFO    SystemMonitor:38805 [interfaces.py:start():188] Started memory monitoring
+2025-01-07 15:01:58,420 INFO    SystemMonitor:38805 [interfaces.py:start():188] Started network monitoring
+2025-01-07 15:01:58,785 DEBUG   HandlerThread:38805 [system_info.py:probe():152] Probing system
+2025-01-07 15:01:58,789 DEBUG   HandlerThread:38805 [gitlib.py:_init_repo():56] git repository is invalid
+2025-01-07 15:01:58,789 DEBUG   HandlerThread:38805 [system_info.py:probe():200] Probing system done
+2025-01-07 15:01:58,789 DEBUG   HandlerThread:38805 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2025-01-07T14:01:58.785927', 'startedAt': '2025-01-07T14:01:57.632100', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/baselines/vanilla_cl.py', 'codePathLocal': 'baselines/vanilla_cl.py', 'codePath': 'baselines/vanilla_cl.py', 'host': 'dhcp-10-24-87-155.wlan.ntnu.no', 'username': 'shamba', 'executable': '/Users/shamba/anaconda3/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 182.6518325805664}}, 'gpuapple': {'type': 'Apple M2 Pro', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 16.0}}
+2025-01-07 15:01:58,789 INFO    HandlerThread:38805 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-07 15:01:58,789 INFO    HandlerThread:38805 [system_monitor.py:probe():227] Publishing system info
+2025-01-07 15:01:58,789 DEBUG   HandlerThread:38805 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-01-07 15:01:59,394 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/conda-environment.yaml
+2025-01-07 15:02:01,772 DEBUG   HandlerThread:38805 [system_info.py:_save_conda():224] Saving conda packages done
+2025-01-07 15:02:01,773 INFO    HandlerThread:38805 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-07 15:02:01,781 DEBUG   SenderThread:38805 [sender.py:send():391] send: files
+2025-01-07 15:02:01,781 INFO    SenderThread:38805 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2025-01-07 15:02:01,933 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: python_packages
+2025-01-07 15:02:01,933 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-07 15:02:01,934 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-07 15:02:01,934 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: python_packages
+2025-01-07 15:02:01,934 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: stop_status
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: metric
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: metric
+2025-01-07 15:02:02,224 WARNING SenderThread:38805 [sender.py:send_metric():1417] Seen metric with glob (shouldn't happen)
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: config
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: config
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: config
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,224 DEBUG   SenderThread:38805 [sender.py:send():391] send: run
+2025-01-07 15:02:02,411 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/config.yaml
+2025-01-07 15:02:02,411 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/conda-environment.yaml
+2025-01-07 15:02:02,412 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/requirements.txt
+2025-01-07 15:02:02,412 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/wandb-metadata.json
+2025-01-07 15:02:02,413 INFO    SenderThread:38805 [sender.py:send_run():1047] updated run: cnviuul5
+2025-01-07 15:02:02,413 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:02,426 INFO    wandb-upload_0:38805 [upload_job.py:push():130] Uploaded file /var/folders/8_/bs02pqyd2h75v495kym36z2c0000gn/T/tmpfx5b9m0ywandb/pj6or6pq-wandb-metadata.json
+2025-01-07 15:02:03,414 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/output.log
+2025-01-07 15:02:03,417 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: status_report
+2025-01-07 15:02:04,419 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/output.log
+2025-01-07 15:02:05,454 DEBUG   SenderThread:38805 [sender.py:send():391] send: exit
+2025-01-07 15:02:05,454 INFO    SenderThread:38805 [sender.py:send_exit():598] handling exit code: 1
+2025-01-07 15:02:05,454 INFO    SenderThread:38805 [sender.py:send_exit():600] handling runtime: 7
+2025-01-07 15:02:05,455 INFO    SenderThread:38805 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-01-07 15:02:05,455 INFO    SenderThread:38805 [sender.py:send_exit():606] send defer
+2025-01-07 15:02:05,455 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,455 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 0
+2025-01-07 15:02:05,455 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,455 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 0
+2025-01-07 15:02:05,455 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 1
+2025-01-07 15:02:05,455 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,455 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 1
+2025-01-07 15:02:05,455 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,455 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 1
+2025-01-07 15:02:05,455 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 2
+2025-01-07 15:02:05,455 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,455 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 2
+2025-01-07 15:02:05,455 INFO    HandlerThread:38805 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-07 15:02:05,455 DEBUG   SystemMonitor:38805 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-07 15:02:05,455 DEBUG   SystemMonitor:38805 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-07 15:02:05,455 INFO    HandlerThread:38805 [interfaces.py:finish():200] Joined cpu monitor
+2025-01-07 15:02:05,455 DEBUG   SystemMonitor:38805 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-07 15:02:05,455 INFO    HandlerThread:38805 [interfaces.py:finish():200] Joined disk monitor
+2025-01-07 15:02:05,456 INFO    HandlerThread:38805 [interfaces.py:finish():200] Joined gpuapple monitor
+2025-01-07 15:02:05,456 INFO    HandlerThread:38805 [interfaces.py:finish():200] Joined memory monitor
+2025-01-07 15:02:05,456 INFO    HandlerThread:38805 [interfaces.py:finish():200] Joined network monitor
+2025-01-07 15:02:05,456 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,456 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 2
+2025-01-07 15:02:05,456 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 3
+2025-01-07 15:02:05,456 DEBUG   SenderThread:38805 [sender.py:send():391] send: telemetry
+2025-01-07 15:02:05,456 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,456 DEBUG   SenderThread:38805 [sender.py:send():391] send: stats
+2025-01-07 15:02:05,456 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 3
+2025-01-07 15:02:05,456 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,456 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 3
+2025-01-07 15:02:05,456 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 4
+2025-01-07 15:02:05,456 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,456 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 4
+2025-01-07 15:02:05,456 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,456 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 4
+2025-01-07 15:02:05,456 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 5
+2025-01-07 15:02:05,457 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,457 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 5
+2025-01-07 15:02:05,457 DEBUG   SenderThread:38805 [sender.py:send():391] send: summary
+2025-01-07 15:02:05,457 INFO    SenderThread:38805 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-01-07 15:02:05,457 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,457 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 5
+2025-01-07 15:02:05,457 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 6
+2025-01-07 15:02:05,457 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,457 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 6
+2025-01-07 15:02:05,457 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,457 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 6
+2025-01-07 15:02:05,458 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: status_report
+2025-01-07 15:02:05,638 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 7
+2025-01-07 15:02:05,639 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:05,639 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 7
+2025-01-07 15:02:05,639 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:05,639 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 7
+2025-01-07 15:02:06,428 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 8
+2025-01-07 15:02:06,428 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:06,428 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 8
+2025-01-07 15:02:06,429 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:06,429 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 8
+2025-01-07 15:02:06,429 INFO    SenderThread:38805 [job_builder.py:build():443] Attempting to build job artifact
+2025-01-07 15:02:06,430 INFO    SenderThread:38805 [job_builder.py:_get_source_type():583] no source found
+2025-01-07 15:02:06,430 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 9
+2025-01-07 15:02:06,430 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:06,430 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 9
+2025-01-07 15:02:06,431 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:06,431 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 9
+2025-01-07 15:02:06,431 INFO    SenderThread:38805 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-07 15:02:06,431 INFO    Thread-13 :38805 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/output.log
+2025-01-07 15:02:06,432 INFO    SenderThread:38805 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/config.yaml
+2025-01-07 15:02:06,432 INFO    SenderThread:38805 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/wandb-summary.json
+2025-01-07 15:02:06,432 INFO    SenderThread:38805 [dir_watcher.py:finish():388] scan: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files
+2025-01-07 15:02:06,432 INFO    SenderThread:38805 [dir_watcher.py:finish():402] scan save: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/requirements.txt requirements.txt
+2025-01-07 15:02:06,432 INFO    SenderThread:38805 [dir_watcher.py:finish():402] scan save: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/output.log output.log
+2025-01-07 15:02:06,434 INFO    SenderThread:38805 [dir_watcher.py:finish():402] scan save: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/config.yaml config.yaml
+2025-01-07 15:02:06,434 INFO    SenderThread:38805 [dir_watcher.py:finish():402] scan save: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/wandb-summary.json wandb-summary.json
+2025-01-07 15:02:06,434 INFO    SenderThread:38805 [dir_watcher.py:finish():402] scan save: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/conda-environment.yaml conda-environment.yaml
+2025-01-07 15:02:06,435 INFO    SenderThread:38805 [dir_watcher.py:finish():402] scan save: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/wandb-metadata.json wandb-metadata.json
+2025-01-07 15:02:06,435 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 10
+2025-01-07 15:02:06,436 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:06,436 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 10
+2025-01-07 15:02:06,438 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:06,438 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 10
+2025-01-07 15:02:06,438 INFO    SenderThread:38805 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-07 15:02:06,455 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-07 15:02:06,455 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: poll_exit
+2025-01-07 15:02:06,853 INFO    wandb-upload_0:38805 [upload_job.py:push():130] Uploaded file /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/requirements.txt
+2025-01-07 15:02:06,910 INFO    wandb-upload_1:38805 [upload_job.py:push():130] Uploaded file /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/output.log
+2025-01-07 15:02:06,969 INFO    wandb-upload_2:38805 [upload_job.py:push():130] Uploaded file /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/config.yaml
+2025-01-07 15:02:07,013 INFO    wandb-upload_3:38805 [upload_job.py:push():130] Uploaded file /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/wandb-summary.json
+2025-01-07 15:02:07,067 INFO    wandb-upload_4:38805 [upload_job.py:push():130] Uploaded file /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/files/conda-environment.yaml
+2025-01-07 15:02:07,272 INFO    Thread-12 (_thread_body):38805 [sender.py:transition_state():626] send defer: 11
+2025-01-07 15:02:07,273 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:07,273 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 11
+2025-01-07 15:02:07,274 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:07,274 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 11
+2025-01-07 15:02:07,274 INFO    SenderThread:38805 [file_pusher.py:join():175] waiting for file pusher
+2025-01-07 15:02:07,275 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 12
+2025-01-07 15:02:07,275 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:07,275 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 12
+2025-01-07 15:02:07,275 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:07,275 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 12
+2025-01-07 15:02:07,275 INFO    SenderThread:38805 [file_stream.py:finish():601] file stream finish called
+2025-01-07 15:02:07,440 INFO    SenderThread:38805 [file_stream.py:finish():605] file stream finish is done
+2025-01-07 15:02:07,440 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 13
+2025-01-07 15:02:07,441 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:07,441 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 13
+2025-01-07 15:02:07,441 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:07,442 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 13
+2025-01-07 15:02:07,442 INFO    SenderThread:38805 [sender.py:transition_state():626] send defer: 14
+2025-01-07 15:02:07,443 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: defer
+2025-01-07 15:02:07,443 DEBUG   SenderThread:38805 [sender.py:send():391] send: final
+2025-01-07 15:02:07,443 INFO    HandlerThread:38805 [handler.py:handle_request_defer():184] handle defer: 14
+2025-01-07 15:02:07,443 DEBUG   SenderThread:38805 [sender.py:send():391] send: footer
+2025-01-07 15:02:07,443 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: defer
+2025-01-07 15:02:07,443 INFO    SenderThread:38805 [sender.py:send_request_defer():622] handle sender defer: 14
+2025-01-07 15:02:07,444 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-07 15:02:07,445 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: poll_exit
+2025-01-07 15:02:07,445 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: server_info
+2025-01-07 15:02:07,445 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-07 15:02:07,445 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: server_info
+2025-01-07 15:02:07,447 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: get_summary
+2025-01-07 15:02:07,448 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: sampled_history
+2025-01-07 15:02:07,448 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-07 15:02:07,601 DEBUG   SenderThread:38805 [sender.py:send_request():418] send_request: poll_exit
+2025-01-07 15:02:07,602 INFO    MainThread:38805 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2025-01-07 15:02:07,602 INFO    MainThread:38805 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2025-01-07 15:02:07,602 INFO    MainThread:38805 [wandb_run.py:_footer_sync_info():4037] logging synced files
+2025-01-07 15:02:07,604 DEBUG   HandlerThread:38805 [handler.py:handle_request():158] handle_request: shutdown
+2025-01-07 15:02:07,604 INFO    HandlerThread:38805 [handler.py:finish():884] shutting down handler
+2025-01-07 15:02:08,451 INFO    WriterThread:38805 [datastore.py:close():296] close: /Users/shamba/Desktop/Paper 1 - HAR RL/RAW_DATA/wandb/run-20250107_150157-cnviuul5/run-cnviuul5.wandb
+2025-01-07 15:02:08,607 INFO    SenderThread:38805 [sender.py:finish():1631] shutting down sender
+2025-01-07 15:02:08,607 INFO    SenderThread:38805 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-07 15:02:08,608 INFO    SenderThread:38805 [file_pusher.py:join():175] waiting for file pusher
